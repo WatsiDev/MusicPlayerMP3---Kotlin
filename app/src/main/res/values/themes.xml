@@ -2,4 +2,10 @@
 <resources>
 
     <style name="Theme.MusicPlayerMP3" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.MusicPlayerMP3.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="postSplashScreenTheme">@style/Theme.MusicPlayerMP3</item>
+    </style>
 </resources>
